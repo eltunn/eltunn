@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ürünler</title>
+  <style>
+    .product-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+    }
+    .product-card h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .product-card p {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ürünler</h1>
+
+  <div class="product-list">
+    <div class="product-card">
+      <img src="urun1.jpg" alt="Ürün 1">
+      <h2>Ürün 1 Adı</h2>
+      <p>Ürün 1 Açıklaması</p>
+      <p>Fiyat: $19.99</p>
+    </div>
+    <div class="product-card">
+      <img src="urun2.jpg" alt="Ürün 2">
+      <h2>Ürün 2 Adı</h2>
+      <p>Ürün 2 Açıklaması</p>
+      <p>Fiyat: $24.99</p>
+    </div>
+    <div class="product-card">
+      <img src="urun3.jpg" alt="Ürün 3">
+      <h2>Ürün 3 Adı</h2>
+      <p>Ürün 3 Açıklaması</p>
+      <p>Fiyat: $14.99</p>
+    </div>
+  </div>
+
+  <div class="pagination">
+    <a href="shop?page=1">Önceki Sayfa</a>
+    <a href="shop?page=1">1</a>
+    <span>2</span>
+    <a href="shop?page=3">3</a>
+    <a href="shop?page=3">Sonraki Sayfa</a>
+  </div>
+</body>
+</html>
